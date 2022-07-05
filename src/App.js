@@ -7,10 +7,9 @@ import { Journal } from './data'
 export default function App() {
   const journal = Journal.map((details, index) => {
     const isLastItem = Journal.length - 1 === index
-
     return (
       <>
-        <Card details={details} />
+        <Card key={details.title + index} details={details} />
         {!isLastItem && <hr />}
       </>
     )

@@ -56,11 +56,44 @@ nav > img {
 
 .card-cover {
   max-width: 35%;
-  height: 50vh;
+  height: 45vh;
   border-radius: 5px;
   object-fit: cover;
 }
 
 .card-body {
   padding: 0 20px;
+}
+
+.journal-stats {
+  display: flex;
+}
+
+.pin-icon {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.stats-location {
+  margin-right: 20px;
+}
+
+.stats-link {
+  color: var(--color-gray);
+}
+
+.card-title {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.journal-dates {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.journal-details {
+  line-height: 1.55em;
+  margin: 0;
 }
