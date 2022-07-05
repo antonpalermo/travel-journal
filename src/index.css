@@ -16,6 +16,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+hr {
+  border: 1px solid var(--color-gray-20);
+  margin: 18px 0;
+}
+
 nav {
   overflow: hidden;
   background-color: var(--color-pink);
@@ -34,4 +39,28 @@ nav > h1 {
 
 nav > img {
   margin-right: 10px;
+}
+
+.card-container {
+  padding: 5.33em 0;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.card-journal {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 0 0 auto;
+}
+
+.card-cover {
+  max-width: 35%;
+  height: 50vh;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0 20px;
 }
