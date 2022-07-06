@@ -97,3 +97,24 @@ nav > img {
   line-height: 1.55em;
   margin: 0;
 }
+
+@media screen and (max-width: 620px) {
+
+  .card-container {
+    padding: 5.33em 2.33em;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .card-cover {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .card-journal {
+    flex-direction: column;
+  }
+}
